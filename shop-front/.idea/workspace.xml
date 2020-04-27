@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="517a5f40-f497-46a7-9005-c43f04be7009" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Shop-back/src/main/java/com/appl/BasicAuthConfigurationConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shop-back/src/main/java/com/appl/Controllers/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shop-back/src/main/java/com/appl/Controllers/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shop-back/src/main/java/com/appl/Models/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shop-back/src/main/java/com/appl/Models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shop-back/src/main/java/com/appl/Models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shop-back/src/main/java/com/appl/MyUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shop-back/src/main/java/com/appl/MyUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shop-back/src/main/java/com/appl/Repos/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shop-back/target/classes/com/appl/Controllers/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/.idea/Shop-back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop-back/.idea/Shop-back.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop-back/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop-back/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop-back/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop-back/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/main/java/com/appl/Controllers/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop-back/src/main/java/com/appl/Controllers/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/main/java/com/appl/Controllers/MainPageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/main/java/com/appl/Models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop-back/src/main/java/com/appl/Models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/css/footer-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/css/footer-style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/css/header-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/css/header-style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/css/main-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/css/main-style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/css/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/css/brands.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/css/brands.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/css/fontawesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/css/fontawesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/css/regular.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/css/regular.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/css/solid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/css/solid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/css/svg-with-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/css/svg-with-js.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/css/v4-shims.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/css/v4-shims.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/js/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/js/all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/js/brands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/js/brands.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/js/conflict-detection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/js/conflict-detection.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/js/fontawesome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/js/fontawesome.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/js/regular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/js/regular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/js/solid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/js/solid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/js/v4-shims.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/js/v4-shims.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/metadata/categories.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/metadata/icons.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/metadata/icons.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/metadata/shims.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/metadata/shims.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/metadata/sponsors.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/sprites/brands.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/sprites/regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/sprites/solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/500px.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/accessible-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/accusoft.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/acquisitions-incorporated.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/adn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/adobe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/adversal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/affiliatetheme.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/airbnb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/algolia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/alipay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/amazon-pay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/amazon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/amilia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/android.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/angellist.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/angrycreative.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/angular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/app-store-ios.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/app-store.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/apper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/apple-pay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/apple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/artstation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/asymmetrik.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/atlassian.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/audible.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/autoprefixer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/avianex.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/aviato.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/aws.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/bandcamp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/battle-net.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/behance-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/behance.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/bimobject.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/bitbucket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/bitcoin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/bity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/black-tie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/blackberry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/blogger-b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/blogger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/bluetooth-b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/bluetooth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/bootstrap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/btc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/buffer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/buromobelexperte.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/buy-n-large.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/buysellads.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/canadian-maple-leaf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/cc-amazon-pay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/cc-amex.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/cc-apple-pay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/cc-diners-club.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/cc-discover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/cc-jcb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fontawesome/svgs/brands/cc-mastercard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fonts/OpenSans-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fonts/OpenSans-Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fonts/OpenSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fonts/OpenSans-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fonts/OpenSans-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fonts/OpenSans-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fonts/OpenSans-Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fonts/OpenSans-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/fonts/OpenSans-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/img/card-obj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/blocks/blocks/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/catalog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/css/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/css/brands.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/css/brands.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/css/fontawesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/css/fontawesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/css/regular.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/css/regular.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/css/solid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/css/solid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/css/svg-with-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/css/svg-with-js.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/css/v4-shims.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/css/v4-shims.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/js/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/js/all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/js/brands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/js/brands.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/js/conflict-detection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/js/conflict-detection.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/js/fontawesome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/js/fontawesome.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/js/regular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/js/regular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/js/solid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/js/solid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/js/v4-shims.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/js/v4-shims.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/metadata/categories.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/metadata/icons.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/metadata/icons.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/metadata/shims.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/metadata/shims.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/metadata/sponsors.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/sprites/brands.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/sprites/regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/sprites/solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/500px.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/accessible-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/accusoft.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/acquisitions-incorporated.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/adn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/adobe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/adversal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/affiliatetheme.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/airbnb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/algolia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/alipay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/amazon-pay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/amazon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/amilia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/android.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/angellist.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/angrycreative.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/angular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/app-store-ios.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/app-store.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/apper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/apple-pay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/apple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/artstation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/asymmetrik.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/atlassian.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/audible.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/autoprefixer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/avianex.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/aviato.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/aws.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/bandcamp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/battle-net.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/behance-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/behance.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/bimobject.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/bitbucket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/bitcoin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/bity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/black-tie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/blackberry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/blogger-b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/blogger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/bluetooth-b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/bluetooth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/bootstrap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/btc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/buffer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/buromobelexperte.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/buy-n-large.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/buysellads.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/canadian-maple-leaf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/cc-amazon-pay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/cc-amex.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/cc-apple-pay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/cc-diners-club.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/cc-discover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/cc-jcb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fontawesome/svgs/brands/cc-mastercard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fonts/OpenSans-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fonts/OpenSans-Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fonts/OpenSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fonts/OpenSans-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fonts/OpenSans-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fonts/OpenSans-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fonts/OpenSans-Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fonts/OpenSans-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/fonts/OpenSans-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/img/card-obj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/log in.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/src/yateryam.github.io-master/log out.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/target/classes/com/appl/Controllers/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop-back/target/classes/com/appl/Controllers/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/target/classes/com/appl/Controllers/MainPageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop-back/target/classes/com/appl/Models/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop-back/target/classes/com/appl/Models/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1a5AhESL7pXrkichhD2GfFd9FMT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/Java_code/Spring_Lessons/Spring-Ang_full" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="C:\Users\Андрей\Desktop\Shop\shop-front\angl\shop\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Андрей\Desktop\Shop\shop-front\angl\shop\src" />
+      <recent name="C:\Users\Андрей\Desktop\Shop\shop-front\angl\fonts" />
+      <recent name="C:\Users\Андрей\Desktop\shop-front\angl\shop\src\app" />
+      <recent name="C:\Users\Андрей\Desktop\shop-front\angl\shop\src\app\classes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/angl/shop/angular.json" />
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="517a5f40-f497-46a7-9005-c43f04be7009" name="Default Changelist" comment="" />
+      <created>1586015198380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586015198380</updated>
+      <workItem from="1586015201040" duration="5544000" />
+      <workItem from="1586033150577" duration="737000" />
+      <workItem from="1586033946171" duration="7848000" />
+      <workItem from="1586122818268" duration="5793000" />
+      <workItem from="1586129048857" duration="9542000" />
+      <workItem from="1586194340049" duration="8786000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586123142180">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586123142180" />
+    <state x="191" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1586134430649">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="191" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586134430649" />
+    <state x="405" y="191" key="EditFileWatcherDialog" timestamp="1586016881395">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="405" y="191" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1586016881395" />
+    <state x="848" y="153" key="FileChooserDialogImpl" timestamp="1586126933804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="848" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586126933804" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1586033977565">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586033977565" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1586127799431">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586127799431" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586123460452">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586123460452" />
+  </component>
+</project>

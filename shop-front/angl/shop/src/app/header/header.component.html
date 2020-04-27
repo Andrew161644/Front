@@ -1,0 +1,53 @@
+<header>
+  <div class="container">
+    <div class="flex vertical-s-a all-box">
+
+      <div class="flex horizontal-s-b first-line-in-header">
+        <div class="flex  contact">
+          <div class="flex phone">
+							<span>
+							<i class="fa fa-phone-alt"></i>
+							</span>
+            <p>+7(700)70 70 770</p>
+          </div>
+          <div class="flex  mail">
+							<span>
+							<i class="fa fa-envelope"></i>
+							</span>
+            <p>weshop@mail.ru</p>
+          </div>
+        </div>
+        <div class=" flex end log-in-out">
+          <a (click)="redirectReg()">Зарегистрироваться</a>
+          <a (click)="redirectLogIn()">Войти</a>
+          <a (click)="logOut()">Выйти</a>
+        </div>
+      </div>
+      <div class="flex horizontal-s-b second-line-in-header">
+
+        <div class="flex logo">
+          <p> <a href="">weshop</a></p>
+        </div>
+
+        <div class="form">
+          <form action="">
+            <label>
+              <input type="search" placeholder="Поиск..."  [(ngModel)]="ask"  (ngModelChange)="onStringChange()" name="search">
+            </label>
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+
+        <div class="flex balance ">
+          <div class="circle">
+							<span>
+							<i class="fa fa-shopping-cart"></i>
+							</span>
+          </div>
+          <p id="price" class="text-right">100 рублей</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>

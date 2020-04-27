@@ -1,0 +1,81 @@
+<div class="container  info-horizontal-center">
+  <aside>
+    <nav id="sidebar">
+      <div class="nav-box "> <div class="nav-box-link"><i class="fa fa-play-circle"></i><a href="topics/1">Распродажа</a> </div></div>
+      <div class="nav-box"><div class="nav-box-link"><i class="fa fa-play-circle"></i><a href="topics/2">Автомобильные аксессуары</a></div></div>
+      <div class="nav-box"><div class="nav-box-link"><i class="fa fa-play-circle"></i><a href="topics/3">Бытовая техника</a></div></div>
+      <div class="nav-box"><div class="nav-box-link"><i class="fa fa-play-circle"></i><a href="topics/4">Вентиляция</a></div></div>
+      <div class="nav-box"><div class="nav-box-link"><i class="fa fa-play-circle"></i><a href="topics/5">Водоотведение</a></div></div>
+      <div class="nav-box"><div class="nav-box-link"><i class="fa fa-play-circle"></i><a href="topics/6">Галантерия</a></div></div>
+      <div class="nav-box"><div class="nav-box-link"><i class="fa fa-play-circle"></i><a href="topics/7">Инструменты</a></div></div>
+      <div class="nav-box"><div class="nav-box-link"><i class="fa fa-play-circle"></i><a href="topics/8">Крепеж</a></div></div>
+      <div class="nav-box"><div class="nav-box-link"><i class="fa fa-play-circle"></i><a href="topics/9">Лакокрасочные материалы</a></div></div>
+      <!--<tr *ngFor="let topic of topics">
+        <div class="nav-box"><div class="nav-box-link"><i class="fas fa-play-circle"></i><a href="">{{topic.name}}</a></div></div>
+      </tr>-->
+    </nav>
+  </aside>
+  <main>
+    <div class="block-content">
+      <div class="flex horizontal-s-b header"><h2>Новинки</h2>
+        <div class="header-nav flex horizontal-end">
+          <a href="#">Все</a>
+          <span><i  class="fa fa-arrow-circle-left"></i>  </span>
+
+          <span><i class="fa fa-arrow-circle-right"></i></span>
+        </div>
+      </div>
+      <div class="box-card-obj info-horizontal-wrap">
+        <tr *ngFor="let card of cards">
+          <div class="card-obj">
+            <img [src]=card.img />
+            <h3>{{card.name}}</h3>
+            <p>{{card.price}}</p>
+          </div>
+        </tr>
+      </div>
+    </div>
+    <div class="block-content">
+      <div class="flex horizontal-s-b header">
+        <h2>Рекомендуем Вам</h2>
+        <div class="header-nav flex horizontal-end">
+          <a href="#">Все</a>
+          <span><i class="fa fa-arrow-circle-left"></i> </span>
+
+          <span><i class="fa fa-arrow-circle-right"></i></span>
+        </div>
+      </div>
+      <div class="box-card-obj info-horizontal-wrap">
+        <div class="card-obj">
+          <img src="img/card-obj.jpg" alt="">
+          <h3>Шуруповёрт</h3>
+          <p>1500р</p>
+        </div>
+
+      </div>
+      <div class="block-content">
+        <div class="flex horizontal-s-b header">
+          <h2>Недавно Просмотренные</h2>
+
+          <div class="header-nav flex horizontal-end">
+
+            <a href="#">Все</a>
+            <span><i  class="fa fa-arrow-circle-left"></i></span>
+            <span><i class="fa fa-arrow-circle-right"></i></span>
+          </div>
+        </div>
+        <div class="box-card-obj info-horizontal-wrap">
+          <div class="card-obj">
+            <img src="img/card-obj.jpg" alt="">
+            <div class="flex vertical-center">
+              <h3>Шуруповёрт</h3>
+              <p>1500р</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
