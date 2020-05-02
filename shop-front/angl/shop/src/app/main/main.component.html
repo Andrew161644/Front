@@ -27,7 +27,7 @@
       </div>
       <div class="box-card-obj info-horizontal-wrap">
         <tr *ngFor="let card of cards">
-          <div class="card-obj">
+          <div class="card-obj" (click)="cardRedirect(card.id)">
             <img [src]=card.img />
             <h3>{{card.name}}</h3>
             <p>{{card.price}}</p>

@@ -22,7 +22,9 @@ export class ProductService {
   getRecomends(): Observable<any> {
     return this.http.get(`${this.url + '/getRecommends'}`);
   }
-
+  getProductbyId(id:number):Observable<any>{
+    return this.http.get(`${this.url + '/getProductById'}/${id}`);
+  }
   getProdByCatId(id: number): Observable<any> {
     return this.http.get(`${this.url + '/getProdByType'}/${id}`);
   }
@@ -32,7 +34,7 @@ export class ProductService {
       let products=data["products"];
         return products.map(
           function(product:Product) {
-              return {name: product.name, price:product.price , img:'data:image/jpeg;base64,' +  product['image']}
+              return {name: product.name, price:product.price , img:'data:image/jpeg;base64,' +  product['image'], id:product.id}
           }
         )
     }))

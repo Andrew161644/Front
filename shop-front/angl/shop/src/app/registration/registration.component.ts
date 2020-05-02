@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import {Router} from "@angular/router";
 import {AuthecationService} from "../services/authecation.service";
 import {RegistrationService} from "../services/registration-service";
-import {User} from "../classes/User";
+import {Member} from "../classes/Member";
+import {discardPeriodicTasks} from '@angular/core/testing';
 
 @Component({
   selector: 'app-registration',
@@ -10,27 +11,41 @@ import {User} from "../classes/User";
   styleUrls: ['./registration.component.less']
 })
 export class RegistrationComponent implements OnInit {
-  user:User;
-  constructor(private router:Router,private regser:RegistrationService) {
-    this.user=new User();
+  public member:Member;
+  constructor(private router:Router,private registr:RegistrationService, private auth:AuthecationService) {
+
   }
 
   ngOnInit(): void {
-
+    this.member=new Member();
   }
-  isUsed(){
-    this.regser.isUsed(this.user.name,this.user.password).subscribe(
+  reg(){
+    this.registr.isUsed(this.member.username,this.member.password).subscribe(
       data=>{
-
-        console.log(data);
-        if(data){
-          console.log("Used already");
+        if (data){
+          console.log("Username or Password used");
         }
         else {
-          this.regser.save(this.user);
+          this.registr.isEmailUsed(this.member.email).subscribe(
+            data=>{
+              if (data){
+                console.log("Email is used")
+              }
+              else {
+                this.auth.authenticate(this.member.username,this.member.password).subscribe(
+                  data=>{
+                    console.log("auth");
+
+                    this.router.navigate([''])
+                  },
+
+                )
+              }
+            }
+          )
         }
       }
-    );
+    )
   }
 
 }

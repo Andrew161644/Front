@@ -12,6 +12,7 @@ import {FormsModule} from '@angular/forms';
 import { RegistrationComponent } from './registration/registration.component';
 import { ProductsByCategoriesComponent } from './products-by-categories/products-by-categories.component';
 import { CardProductComponent } from './card-product/card-product.component';
+import { LogoutComponent } from './logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CardProductComponent } from './card-product/card-product.component';
     LoginComponent,
     RegistrationComponent,
     ProductsByCategoriesComponent,
-    CardProductComponent
+    CardProductComponent,
+    LogoutComponent
   ],
   imports: [
     HttpClientModule,

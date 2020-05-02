@@ -12,9 +12,12 @@ import {Product} from '../classes/Product';
 export class HeaderComponent implements OnInit {
   ask: string;
   products: Product[] = [];
-  constructor(private router:Router, private auth:AuthecationService, private findService:FindService) { }
+  constructor(private router:Router, public auth:AuthecationService, private findService:FindService) { }
 
-  onStringChange(){}
+  onStringChange(){
+    console.log("find");
+   /* this.find()*/
+  }
   find() {
     this.products = [];
     this.findService.ask(this.ask).subscribe(data=>{
@@ -23,9 +26,9 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    for (let i = 0; i < 5; i++) {
+    /*for (let i = 0; i < 5; i++) {
       this.products[i] = new Product('Product', 2000);
-    }
+    }*/
   }
   logOut(){
     this.auth.logOut();

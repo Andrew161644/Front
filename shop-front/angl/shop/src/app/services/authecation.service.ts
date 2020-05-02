@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 import {reflectTypeEntityToDeclaration} from "@angular/compiler-cli/src/ngtsc/reflection";
-import {User} from "../classes/User";
+import {Member} from "../classes/Member";
 @Injectable({
   providedIn: 'root'
 })
@@ -25,7 +25,6 @@ export class AuthecationService {
   }
   isUserLoggedIn(){
     const user = sessionStorage.getItem('username');
-    console.log(!(user === null));
     return !(user === null);
   }
   logOut() {

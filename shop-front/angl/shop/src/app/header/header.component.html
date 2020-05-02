@@ -18,9 +18,10 @@
           </div>
         </div>
         <div class=" flex end log-in-out">
-          <a (click)="redirectReg()">Зарегистрироваться</a>
-          <a (click)="redirectLogIn()">Войти</a>
-          <a (click)="logOut()">Выйти</a>
+          <a  *ngIf="!auth.isUserLoggedIn()" routerLink="/registration" class="nav-link">Зарегистироваться</a>
+          <a  *ngIf="!auth.isUserLoggedIn()" routerLink="/login" class="nav-link">Войти</a>
+          <a *ngIf="auth.isUserLoggedIn()"  routerLink="/logout" class="nav-link">Выйти</a>
+
         </div>
       </div>
       <div class="flex horizontal-s-b second-line-in-header">

@@ -1,12 +1,15 @@
-export class Product {
 
-  constructor(name: String,  price: number) {
+export class Product {
+  public id: number;
+  public name:string;
+  public img: string;
+  public price: number;
+  constructor(name: string,  price: number,id: number) {
     this.name = name;
     this.img="";
+    this.id=id;
     this.price = price;
   }
-
-  public name:String;
-  public img: String;
-  public price: number;
 }
+
+

@@ -13,9 +13,10 @@ export class FindService {
   private url: string;
 
   constructor(private http: HttpClient) {
+    this.url='http://localhost:8080/find'
   }
 
-  ask(str: string){
-    return this.http.get(`${this.url + '/findOnCite'}`);
+  ask(str: string) : Observable<any>{
+    return this.http.get(`${this.url + '/header'}/{str}`);
   }
 }
